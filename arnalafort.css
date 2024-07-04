@@ -1,0 +1,127 @@
+body {
+    background-color:lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2c5364;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+.title {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: #f7df1e;
+}
+
+.hero {
+    background-image: url("../Images/arnalafort.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hero .container {
+    position: relative;
+}
+
+.hero-title {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.image-container img {
+    width: 48%;
+    max-width: 400px;
+}
+
+.map-container {
+    text-align: center;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    margin: auto;
+    padding: 30px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: #2c5364;
+    color: #ffffff;
+    padding:20px 0;
+    text-align: center;
+    margin-top: auto; /* Move footer to bottom */
+   
+}
+
+
+
+.footer ul {
+    padding: 0;
+}
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer ul li a:hover {
+    color: #f7df1e;
+}
+
